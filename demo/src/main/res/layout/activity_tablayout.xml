@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.fengrui.hotpot.widget.PPDTabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:overScrollMode="never"
+        app:tabPPDDivideLineWidth="1dp"
+        app:tabPPDDivideLinePadding="12dp"
+        app:tabPPDDivideLineColor="@android:color/holo_blue_light"
+        app:tabPPDSelectedTextColor="@android:color/holo_blue_light"
+        app:tabPPDTextSize="16dp"
+        app:tabPPDIndicatorColor="@android:color/holo_blue_light"
+        app:tabPPDIndicatorHeight="2dp"
+        app:tabPPDIndicatorWeight="50%"
+        app:tabPPDMode="fixed"
+        app:tabPPDTextColor="@android:color/darker_gray" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
